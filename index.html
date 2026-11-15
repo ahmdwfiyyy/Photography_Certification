@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photography Exhibit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-h-screen bg-stone-950 text-stone-100 font-serif">
+    <header class="max-w-6xl mx-auto px-6 pt-16 pb-10 text-center">
+      <p class="text-xs uppercase tracking-[0.4em] text-amber-400">Gallery Nº 07 · Winter Season</p>
+      <h1 class="mt-4 text-5xl md:text-6xl font-light tracking-tight">Light &amp; Distance</h1>
+      <p class="mt-4 max-w-xl mx-auto text-stone-400 font-sans text-sm leading-relaxed">
+        Three frames from three corners of Italy and the Alps — a quiet study of
+        stone, snow and sea, captured where history meets the horizon.
+      </p>
+      <div class="mt-8 mx-auto h-px w-24 bg-amber-400/60"></div>
+    </header>
+
+    <main class="main-container grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6 pb-20">
+      <article class="card rounded-2xl p-5 bg-stone-900 ring-1 ring-stone-800 shadow-xl shadow-black/40 transition duration-300 hover:-translate-y-2 hover:ring-amber-400/50">
+        <img
+          class="rounded-xl w-full h-64 object-cover grayscale hover:grayscale-0 transition duration-500"
+          src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg"
+          alt="The Colosseum in Rome standing beneath a clear sky"
+        />
+        <p class="mt-5 text-xs font-sans uppercase tracking-widest text-amber-400">Plate I · Rome</p>
+        <h2 class="subheading font-semibold text-2xl mt-1">The Eternal Arena</h2>
+        <p class="description text-sm font-sans text-stone-400 mt-3 leading-relaxed">
+          Two thousand years of echoes held in travertine arches — the Colosseo
+          at golden hour, where every shadow tells a story.
+        </p>
+      </article>
+
+      <article class="card rounded-2xl p-5 bg-stone-900 ring-1 ring-stone-800 shadow-xl shadow-black/40 transition duration-300 hover:-translate-y-2 hover:ring-amber-400/50">
+        <img
+          class="rounded-xl w-full h-64 object-cover grayscale hover:grayscale-0 transition duration-500"
+          src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg"
+          alt="Snow-capped peaks of the Alps rising above a valley"
+        />
+        <p class="mt-5 text-xs font-sans uppercase tracking-widest text-amber-400">Plate II · The Alps</p>
+        <h2 class="subheading font-semibold text-2xl mt-1">Above the Silence</h2>
+        <p class="description text-sm font-sans text-stone-400 mt-3 leading-relaxed">
+          Jagged summits cut through thin alpine air, their snowfields glowing
+          softly in the cold morning light.
+        </p>
+      </article>
+
+      <article class="card rounded-2xl p-5 bg-stone-900 ring-1 ring-stone-800 shadow-xl shadow-black/40 transition duration-300 hover:-translate-y-2 hover:ring-amber-400/50">
+        <img
+          class="rounded-xl w-full h-64 object-cover grayscale hover:grayscale-0 transition duration-500"
+          src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg"
+          alt="Calm blue sea meeting the horizon"
+        />
+        <p class="mt-5 text-xs font-sans uppercase tracking-widest text-amber-400">Plate III · The Coast</p>
+        <h2 class="subheading font-semibold text-2xl mt-1">Where Blue Ends</h2>
+        <p class="description text-sm font-sans text-stone-400 mt-3 leading-relaxed">
+          An endless Mediterranean calm — water and sky folding into one
+          another until the line between them disappears.
+        </p>
+      </article>
+    </main>
+
+    <footer class="border-t border-stone-800 py-8 text-center text-xs font-sans text-stone-500 tracking-wider">
+      Hover a photograph to reveal its colour · Light &amp; Distance Exhibit
+    </footer>
+  </body>
+</html>
